@@ -1,4 +1,7 @@
 1 - O que são operações de “Commit”, “Push” e “Pop” efetuadas num repositório?
+
+   R: A operação commit guarda um snapshot do estado dos ficheiros no momento em que é executada. A operação push envia os commits locais para o repositório remoto. A operação pop, utilizada através do comando git stash pop, recupera as alterações guardadas temporariamente pelo comando git stash e remove-as da lista de alterações guardadas.
+
 2 – Quais sáo as vantagens de usar Branchs num repositório git?
 
   R: As Branchs tem a vantagem de permitir o desenvolvimento de novas funcionalidades (features) e corrigir erros em paralelo sem comprometer a estabilidade da branch principal, permitindo integrar as alterações apenas quando estiverem prontas.
